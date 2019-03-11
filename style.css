@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #4d987e;
+  height: 20vh;
+  width: 100vw;
+}
+
+.down {
+  background: #c2beb1;
+  height: 80vh;
+  width: 100vw;
+}
+
+.conteiner {
+  background: white;
+  height: 90vh;
+  width: 80vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+}
+
+.left {
+  width: 30%;
+  height: 100%;
+  border-right: 1px solid black;
+  background: #cecece;
+}
+
+.utente {
+  height: 65px;
+  display: flex;
+  background: #cecece;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-utente img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.font-utente {
+margin-right: 20px;
+font-size: 25px;
+color: #676971;
+}
+
+.font-utente i {
+  padding-right: 10px;
+}
+
+.blu-info {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: #00cef6;
+}
+
+.campana i {
+  background: white;
+  color: #00cef6;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.blue-text h6{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.input-src {
+  background: #cecece;
+  color: #676971;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input-src input {
+  width: 90%;
+}
+
+.input-src i {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+.profilo-ut {
+  height: 65px;
+  display: flex;
+  background: #cecece;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.name {
+  margin-left: 30px;
+}
+
+.name h6 {
+  padding-top: 5px;
+  color: #676971;
+}
+
+.hour {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #676971;
+}
+
+.right {
+  width: 70%;
+  height: 100%;
+}
+
+.dis-btw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-right{
+  height: 65px;
+}
+
+.central-right {
+  width: 100%;
+  height: 521px;
+  background-image: url("https://external-preview.redd.it/rEwFriCkfAtjOb5b-23b4tGGVcuvfaBqamYNJrgxnLM.png?width=700&auto=webp&s=b9cb52f0a75c14a2a4f0dda83382a525aea36b27");
+}
+
+.down-right {
+  height: 65px;
+  background: #cecece;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 40px;
+  color: #676971;
+}
+
+.down-right input {
+  width: 80%;
+  height: 40px;
+}
+
+.box-message {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.received {
+  background: white;
+  align-self: flex-start;
+}
+
+.message {
+  width: 350px;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.message-details {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sent {
+  background: #00c772;
+  align-self: flex-end;
+}
+
+.message-details i {
+  display: none;
+}
+
+.message:hover i {
+  display: block;
+}
+
+.profilo-ut:hover {
+  background: white;
+  cursor: pointer;
+}
