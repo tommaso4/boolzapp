@@ -140,6 +140,7 @@ color: #676971;
   width: 100%;
   height: 521px;
   background-image: url("https://external-preview.redd.it/rEwFriCkfAtjOb5b-23b4tGGVcuvfaBqamYNJrgxnLM.png?width=700&auto=webp&s=b9cb52f0a75c14a2a4f0dda83382a525aea36b27");
+  display: none;
 }
 
 .down-right {
@@ -180,6 +181,7 @@ color: #676971;
 .message-details {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 
 .sent {
@@ -195,7 +197,35 @@ color: #676971;
   display: block;
 }
 
-.profilo-ut:hover {
+.profili .profilo-ut:hover {
   background: white;
   cursor: pointer;
+}
+
+.red {
+  display: none;
+}
+
+.delate-msg {
+  position: absolute;
+  bottom: -80px;
+  right: -10px;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  display: none;
+  z-index: 100;
+}
+
+.selected {
+  display: block;
+  overflow-y: auto;
+}
+
+.delate-msg h3:hover{
+  cursor: pointer;
+  background: #cedece;
+  padding: 5px;
+  border-left: 2px solid green;
+  font-size: 20px;
 }
